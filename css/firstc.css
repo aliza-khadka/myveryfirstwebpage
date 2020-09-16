@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../pic1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+ul{
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	padding: 2px 10px;
+	border: 1px solid transparent;
+	color: white;
+	transition: 0.5s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.logo img{
+	float: left;
+	height: 80px;
+	width: 100px;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+.main{
+	max-width: 1000px;
+	margin: auto;
+	background-color: blue;
+
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 48%;
+
+}
+h1{
+	color: white;
+	height:50px;
+}
+.button{
+	position: absolute;
+	top: 58%;
+	left: 45%;
+	list-style: none;
+	transform: translate((-50%,-50%));
+	float: right;
+}
+.btn{
+	text-decoration: none;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	color: white;
+	transition: 0.5s ease;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+
+}
+.menu .fa{
+	margin-left: 2px;
+	color: red;
+
+
+}
+ul li ul li{
+	display: none;
+ 	border: 2px solid transparent ;
+ 	margin: 2px;
+ 	padding: 1px;
+ 	transition: 6s ease;
+ 	background-color: linear linear-gradient(green);
+
+ 	width: 80px;
+ 	height: 30px;
+
+ 	
+
+ }
+
+ ul li:hover ul li{
+ 	display: block;
+ 	
+ }
